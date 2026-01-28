@@ -1,0 +1,42 @@
+#include<stdio.h>
+int main(){
+int a,b,c;
+printf("enter the  value of 1st number: ");
+scanf("%d",&a);
+printf("enter the value of 2nd number: ");
+scanf("%d",&b);
+c=a+b;
+printf("addition of two number is %d:",c);
+return 0;
+}
+
+                                                                                                                                                                      
+#include<stdio.h>
+int main(){
+int a,b,c;
+printf("enter the value of 1st element: ");
+scanf("%d",&a);
+printf("enter the value of 2nd element: ");
+scanf("%d",&b);
+c=a-b;
+printf("substraction of two number is %d:",c);
+return 0;
+}
+
+#include<stdio.h>
+void main(){
+printf("Hello world");
+}
+
+                                                                                                                                                                   
+#include<stdio.h>
+int main(){
+int a,b,c;
+printf("enter the value:");
+scanf("%d",&a);
+printf("enter the value:");
+scanf("%d",&b);
+c=a*b;
+printf("mul of to number %d:",c);
+return 0;
+}
